@@ -1,0 +1,7 @@
+.main-app {
+  background-color: rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  position: relative; }
+  .main-app:hover {
+    background-color: rgba(0, 0, 0, 0.24);
+    min-height: 500px; }
