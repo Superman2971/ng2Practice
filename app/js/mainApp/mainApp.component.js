@@ -25,7 +25,8 @@ System.register(['angular2/core'], function(exports_1, context_1) {
                     core_1.Component({
                         selector: 'main-app',
                         templateUrl: 'mainApp/mainApp.component.html',
-                        styleUrls: ['css/mainApp/mainApp.component.css']
+                        styleUrls: ['css/mainApp/mainApp.component.css'],
+                        inputs: ['passed']
                     }), 
                     __metadata('design:paramtypes', [])
                 ], MainApp);

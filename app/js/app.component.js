@@ -24,12 +24,14 @@ System.register(['angular2/core', './mainApp/mainApp.component'], function(expor
             AppComponent = (function () {
                 function AppComponent() {
                     this.name = 'Ian Gold';
+                    this.info = "This info was passed from parent";
                 }
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
                         templateUrl: 'app.html',
-                        directives: [mainApp_component_1.MainApp]
+                        directives: [mainApp_component_1.MainApp],
+                        styleUrls: ['css/app.css']
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);

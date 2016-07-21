@@ -4,7 +4,8 @@ import {MainApp} from './mainApp/mainApp.component';
 @Component({
   selector: 'my-app',
   templateUrl: 'app.html',
-  directives: [MainApp]
+  directives: [MainApp],
+  styleUrls: ['css/app.css']
 })
 
 export class AppComponent {
@@ -12,5 +13,6 @@ export class AppComponent {
 
   constructor() {
     this.name = 'Ian Gold';
+    this.info = "This info was passed from parent";
   }
 }
